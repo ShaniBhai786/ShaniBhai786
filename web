@@ -1,0 +1,100 @@
+<!-- platform.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Platforms</title>
+    <link rel="icon" href="PakAim.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="platform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header1">
+       <div class="head">
+        <!-- --------------------Logo------------------ -->
+        <div class="logo">
+          <a href="web.html"><img src="PakAim.jpg" alt="Logo" /></a>
+        </div>
+        <!-- --------------------h1------------------ -->
+        <a href="web.html"><h1>Pak Aims School System</h1></a>
+        <p>
+          <i>
+            <a href="platform.html">
+              <b>World's Biggest Learning Platform</b>
+            </a>
+          </i>
+        </p>
+        <!-- --------------------list------------------- -->
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="web.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="noticeboard.html">Notice Board</a></li>
+        </ul>
+      </div>
+   
+            <div class="Images">
+                <div class="img1">
+                    <a href="#"><img src="unsplash.jpg" alt="Platform image"></a> 
+                    <a href="#"><h3>Our Classrooms</h3></a>
+                </div>
+            <div class="img2">
+                <a href="#"><img src="Principal Office.jpg" alt="Platform image"></a> <br>
+                <a href="#"><h3>Principal Office</h3></a>
+            </div>
+            <div class="img3">
+              <a href="#"><img src="computer-lab.jpg" alt=""></a>
+              <a href="#"><h3>Computer Lab</h3></a>
+            </div>
+            <div class="img4">
+              <a href="#"><img src="library.jpg" alt=""></a>
+              <a href="#"><h3>Library</h3></a>
+            </div>
+            <div class="img5">
+              <a href="faculty.html"><img src="Faculty.png" alt=""></a>
+              <a href="faculty.html"><h3>Faculty</h3></a>
+            </div>
+            
+            <div class="img6">
+              <a href="#"><img src="playground.jpg" alt=""></a>
+              <a href="#"><h3>Play Ground</h3></a>
+            </div>
+        </div>
+        <div class="btn">
+          <a href="web.html">
+              <b>Go Back</b>
+          </a>
+        </div>
+        <div class="toggle">
+          <a href="#"><i class="fa fa-bars"></i></a>
+        </div>
+        <!-- --------------------Drop down--------------------- -->
+        <div class="drop-down ">
+          <ul>
+            <li><a href="web.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="noticeboard.html">Notice Board</a></li>
+          </ul>
+        </div>
+
+        <script>
+          const togglebtn = document.querySelector('.toggle')
+          const toggleIcon = document.querySelector('.toggle i')
+          const dropdown = document.querySelector('.drop-down')
+      
+          togglebtn.onclick = function() {
+            dropdown.classList.toggle('open')
+      }
+    </script>
+
+
+
+    </div>
+</body>
+</html>
